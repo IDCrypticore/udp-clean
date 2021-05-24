@@ -16,6 +16,10 @@ $ gvncviewer <IP-address>:0 or 1 (Set the Xaviers IP-address) \
 \
 In Terminal on Jetson: \
 $ jtop\
-\
-\textbf{To open the stream through VLC:}
+
+Starting a streaming session: \
+udp720.py 
+$ python3 <udpXXX>.py
+
+To open the stream through VLC: \
 $ udp -v udp-to-vlc.sdp
