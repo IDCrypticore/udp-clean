@@ -12,14 +12,14 @@ $ x11vnc \
 In Terminal on receiving computer: \
 $ gvncviewer tenteam10-desktop:0 or 1 (Information given by x11vnc)
 or \
-$ gvncviewer <IP-address>:0 or 1 (Set the Xaviers IP-address) \
+$ gvncviewer IP-address:0 or 1 (Set the Xaviers IP-address) \
 \
 In Terminal on Jetson: \
 $ jtop\
 
 Starting a streaming session: \
-udp720.py 
-$ python3 <udpXXX>.py
+udp720.py \
+$ python3 udpXXXX.py
 
 To open the stream through VLC: \
 $ udp -v udp-to-vlc.sdp
